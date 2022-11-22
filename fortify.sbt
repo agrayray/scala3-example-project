@@ -4,7 +4,6 @@ addCompilerPlugin(
     cross CrossVersion.patch)
 
 // configure the plugin
-// changed to generic project name
 scalacOptions ++= Seq(
   "-P:fortify:scaversion=22.1",
   "-P:fortify:build=myproject"
