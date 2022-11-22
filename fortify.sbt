@@ -8,3 +8,4 @@ addCompilerPlugin(
 scalacOptions ++= Seq(
   "-P:fortify:scaversion=22.1",
   "-P:fortify:build=myproject"
+)
